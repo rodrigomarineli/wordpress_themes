@@ -4,7 +4,7 @@
 require 'theme-updates/theme-update-checker.php';
 $example_update_checker = new ThemeUpdateChecker(
     'menthes',
-    'https://github.com/rodrigomarineli/wordpress_themes/blob/master/Menthes/info.json'
+    'https://raw.githubusercontent.com/rodrigomarineli/wordpress_themes/master/Menthes/info.json'
 );
 
 require_once get_template_directory() . '/path/to/class-tgm-plugin-activation.php';
